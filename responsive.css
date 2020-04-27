@@ -1,11 +1,11 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
     .navbar{
-        width: auto;
+        /* width: auto; */
     }
   
-    .heroText{
-      font-size: 5rem;
+.heroText{
+      font-size: 4rem;
   }
   .content1-img{
     width: auto;
@@ -23,7 +23,14 @@
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
     .navbar{
-        width: auto;
+        /* width: auto; */
+    }
+    .menu-item {
+        font-size: 0.8rem;
+    }
+
+    .heroText {
+        font-size: 3rem;
     }
     .content1-img{
         width: auto;
@@ -41,5 +48,10 @@
     }
     .gallery{
         width: 100%;
+    }
+
+    .formRegister{
+        padding-left: 10%;
+        padding-right: 10%;
     }
 }
