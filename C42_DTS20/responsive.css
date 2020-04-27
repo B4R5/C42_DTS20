@@ -1,0 +1,45 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+    .navbar{
+        width: auto;
+    }
+  
+    .heroText{
+      font-size: 5rem;
+  }
+  .content1-img{
+    width: auto;
+  } 
+  .fm-form input{
+      width: auto;
+  }
+  .gallery{
+    width: 100%;
+}
+
+
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+    .navbar{
+        width: auto;
+    }
+    .content1-img{
+        width: auto;
+     }
+
+     .fm-form input{
+         width: auto;
+     }
+     .fm-form textarea{
+         width: auto;
+        
+    }
+    .fm-btn{
+        width: 50%;
+    }
+    .gallery{
+        width: 100%;
+    }
+}
